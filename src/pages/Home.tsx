@@ -1,16 +1,15 @@
+import AboutUsCard from "../components/AboutUsCard"
+import VideoPresentation from "../components/VideoPresentation"
 
 
 const Home = () => <>
+    <section className="flex flex-col gap-y-44 first:mt-36 last:my-36">
 
-    <section className="flex">
-        <article> 
-            <h1>
-            About us
-            </h1>
-            Home
-        </article>
+        <AboutUsCard/>
+
+        <VideoPresentation/>
+
     </section>
-
 </>
 
 

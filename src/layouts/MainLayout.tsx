@@ -4,12 +4,13 @@ import Footer from "../components/Footer";
 
 
 const MainLayout = ()=><>
-    <main className="bg-red-400 min-h-screen">
+    
         <Header/>
-        <Outlet/>
+        <main className="min-h-screen">
+         <Outlet/>
+        </main>
         <Footer/>
-    </main>
-
+    
 </>
 
 export default MainLayout

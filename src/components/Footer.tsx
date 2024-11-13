@@ -1,5 +1,5 @@
 const Footer = () => <>
-    <footer>
+    <footer className="flex justify-center">
         soy un footer
     </footer>
 </>
