@@ -5,7 +5,9 @@ import ContactUs from "./pages/ContactUs"
 import MainLayout from "./layouts/MainLayout"
 
 
-const App = () => <>
+
+const App = () =>{
+    return <>
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<MainLayout/>}>
@@ -16,5 +18,5 @@ const App = () => <>
             </Routes>
         </BrowserRouter>
 </>
-
+}
 export default App
